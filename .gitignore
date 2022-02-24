@@ -3,3 +3,5 @@ node_modules
 stats.json
 contracts/build
 contracts/.secret
+contracts/yarn.lock
+yarn.lock

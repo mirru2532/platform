@@ -1,4 +1,14 @@
 {
+  "name": "convex-enjoyer-pack",
+  "version": "1.0.0",
+  "description": "Ok so this contains Convex contracts + deployment/pool data.",
+  "main": "./index.js",
+  "files": [
+	"contracts",
+	"migrations/distro.json",
+	"contracts.json",
+	"vlcvx_token_rewards.json"
+  ],
   "scripts": {
     "deploy": "truffle migrate --network ganachecli --skip-dry-run"
   },
