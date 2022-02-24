@@ -4,7 +4,7 @@ const rewards = require("./vlcvx_token_rewards.json")
 
 const findPool = function (key) {
     for(const pool of contracts.pools) {
-        for(const element of pool) {
+        for(const element of Object.entries(pool)) {
 	    if(element == key) {
 		return pool;
 	    }

@@ -1,6 +1,6 @@
 {
   "name": "convex-enjoyooor-pack",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "Ok so this contains Convex contracts + deployment/pool data.",
   "main": "index.js",
   "files": [
